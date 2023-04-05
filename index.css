@@ -1,0 +1,41 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.output {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  padding: 0 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+button {
+  /* width: 100%; */
+  /* height: 50px; */
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+  background-color: blueviolet;
+}
